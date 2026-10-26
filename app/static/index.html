@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>DemoShop · Policy assistant</title><link rel="stylesheet" href="/static/style.css"><script src="/static/chat.js" defer></script></head>
+<body>
+<header><a class="brand" href="/">DemoShop<span class="brand-dot">●</span></a><span class="badge">POLICY ASSISTANT</span></header>
+<main>
+<aside><span class="eyebrow">A LITTLE CLARITY, ON DEMAND</span><h1>Good questions.<br>Clear answers.</h1><p>Find your way through shipping, returns, and everything in between. Answers come from our policy documents, with sources you can check.</p><div class="scope"><span class="dot"></span>Grounded in five policy documents</div><div class="note"><strong>A fictional store. A working RAG demo.</strong><p>I explain policies. I can't access accounts, track live orders, or make changes to a purchase.</p></div></aside>
+<section class="chat" aria-label="E-commerce policy chat"><div class="chat-title"><div class="avatar">D</div><div><h2>Ask DemoShop</h2><span>E-commerce policies only</span></div><button id="clear" class="clear" type="button">Clear chat</button></div>
+<div id="messages" class="messages" role="log" aria-live="polite"><article class="message assistant welcome"><div class="label">DEMOSHOP</div><p>Hi! What would you like to know about our policies?</p><p class="muted">Ask a complete question each time so I can find the right source.</p></article></div>
+<div class="suggestions"><button type="button" data-question="How long does standard delivery take?">Delivery time ↗</button><button type="button" data-question="Can I return shoes after wearing them?">Return eligibility ↗</button><button type="button" data-question="How soon must I report a damaged item?">Damaged items ↗</button></div>
+<form id="chat-form"><label class="sr-only" for="question">Your policy question</label><textarea id="question" rows="2" maxlength="2000" placeholder="Ask about a DemoShop policy…" required></textarea><button id="send" type="submit" aria-label="Send question">↑</button></form><div class="footer-note" id="status" role="status">Sources included · No live order access · Don't share sensitive details</div>
+</section>
+</main><footer>DemoShop / Knowledge-backed customer support</footer>
+</body></html>

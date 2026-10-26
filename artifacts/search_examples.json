@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How soon must I report a damaged item?",
+    "matches": [
+      {
+        "id": "fd7c86c2-f212-534c-b04e-0875681900f9",
+        "score": 0.502644192228086,
+        "text": "# DemoShop damaged items and customer support\nFictional training policy, version 2026-10-26. Applies only to the DemoShop example.\n\n## Damaged, defective, or incorrect items\nReport a damaged, defective, or incorrect item within 48 hours of delivery through My Orders. Upload photographs of the item, packaging, and shipping label through the secure form. Keep the packaging until the case is resolved. Support reviews the report within 2 business days. Approved cases qualify for a free replacement if stock is available, or a refund. Pickup is free. The 48-hour reporting rule applies even to categories excluded from change-of-mind returns.\n\n## Contact and scope\nDemo support email is support@demoshop.example. Support operates Monday through Friday from 09:00 to 18:00 India Standard Time, excluding public holidays. This is a fictional address, not a real support service. The",
+        "token_count": 180,
+        "start_char": 0,
+        "end_char": 880,
+        "source": "05_damage_support.md",
+        "title": "DemoShop damaged items and customer support",
+        "chunk_index": 0,
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "corpus": "demoshop-v1"
+      },
+      {
+        "id": "3c354fd4-a98a-5524-ac8d-ce3785bea514",
+        "score": 0.36138213546017794,
+        "text": "after dispatch. Tracking updates can take up to 24 hours. If delivery is more than 2 business days past its estimated date, contact support with the order number. This knowledge assistant cannot access live tracking or customer orders.",
+        "token_count": 43,
+        "start_char": 742,
+        "end_char": 977,
+        "source": "01_shipping.md",
+        "title": "DemoShop shipping policy",
+        "chunk_index": 1,
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "corpus": "demoshop-v1"
+      },
+      {
+        "id": "c23d8f7f-2a36-55fa-9344-85774aa2eebd",
+        "score": 0.35421963571782356,
+        "text": "# DemoShop returns policy\nFictional training policy, version 2026-10-26. Applies only to the DemoShop example.\n\n## Return eligibility and window\nClothing and footwear may be returned within 14 calendar days after delivery. They must be unused, unwashed, with original tags and packaging. Start a return from My Orders and select the item and reason. A purchase receipt or order number is required.\n\n## Exclusions\nGift cards, personalized products, and opened hygiene products are not eligible for change-of-mind returns. A damaged or incorrect item must instead be handled under the damaged-items policy, including excluded categories.\n\n## Return pickup fees\nThe first change-of-mind return pickup for an order is free. Each additional change-of-mind pickup for the same order costs INR 99, deducted from the refund. Returns caused by a damaged or incorrect item have",
+        "token_count": 180,
+        "start_char": 0,
+        "end_char": 867,
+        "source": "02_returns.md",
+        "title": "DemoShop returns policy",
+        "chunk_index": 0,
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "corpus": "demoshop-v1"
+      }
+    ]
+  },
+  {
+    "question": "Can I return used shoes after 20 days?",
+    "matches": [
+      {
+        "id": "c23d8f7f-2a36-55fa-9344-85774aa2eebd",
+        "score": 0.4345234194890649,
+        "text": "# DemoShop returns policy\nFictional training policy, version 2026-10-26. Applies only to the DemoShop example.\n\n## Return eligibility and window\nClothing and footwear may be returned within 14 calendar days after delivery. They must be unused, unwashed, with original tags and packaging. Start a return from My Orders and select the item and reason. A purchase receipt or order number is required.\n\n## Exclusions\nGift cards, personalized products, and opened hygiene products are not eligible for change-of-mind returns. A damaged or incorrect item must instead be handled under the damaged-items policy, including excluded categories.\n\n## Return pickup fees\nThe first change-of-mind return pickup for an order is free. Each additional change-of-mind pickup for the same order costs INR 99, deducted from the refund. Returns caused by a damaged or incorrect item have",
+        "token_count": 180,
+        "start_char": 0,
+        "end_char": 867,
+        "source": "02_returns.md",
+        "title": "DemoShop returns policy",
+        "chunk_index": 0,
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "corpus": "demoshop-v1"
+      },
+      {
+        "id": "b6fc2249-7325-5d42-9cf7-b0c0759c7819",
+        "score": 0.3502336314377854,
+        "text": "# DemoShop refunds policy\nFictional training policy, version 2026-10-26. Applies only to the DemoShop example.\n\n## Inspection and refund timing\nA returned item is inspected within 2 business days after reaching the warehouse. If approved, the refund is initiated within 1 business day. Banks or payment providers may then take 5 to 7 business days to credit the money. These periods start at different stages and are not counted from the pickup date.\n\n## Refund destination and amount\nPrepaid orders are refunded to the original payment method. Cash-on-delivery refunds are made to the bank account supplied through the secure return form. Never share bank details, passwords, or OTPs in chat. Refunds cover the eligible item amount actually paid, less any applicable extra pickup fee. Original shipping charges are not refunded for change-of-mind returns. Original",
+        "token_count": 180,
+        "start_char": 0,
+        "end_char": 865,
+        "source": "03_refunds.md",
+        "title": "DemoShop refunds policy",
+        "chunk_index": 0,
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "corpus": "demoshop-v1"
+      }
+    ]
+  },
+  {
+    "question": "Who won yesterday's cricket match?",
+    "matches": []
+  }
+]

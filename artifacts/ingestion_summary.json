@@ -1,0 +1,7 @@
+{
+  "documents": 5,
+  "chunks": 10,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "total_chunk_tokens": 1114
+}
